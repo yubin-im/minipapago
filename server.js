@@ -4,8 +4,8 @@ const app = express(); // express 인스턴스 생성 후 app 변수에 할당
 // 설치한 request 라이브러리 모듈 import
 const httpRequest = require('request');  // 설치한 request 라이브러리 모듈 import
 
-const clientId = 'xaeZhYlLGMsAeb86YnoK';
-const clientSecret = 'fQcdoTAzor';
+const clientId = '';
+const clientSecret = '';
 
 // 미들웨어 추가
 app.use(express.static('public')); // 정적인 자원(static)은 public 폴더에 보관
